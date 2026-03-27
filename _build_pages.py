@@ -645,7 +645,7 @@ def service_page(slug, name, price_range, img_url, intro, sections, faqs, schema
               <input type="hidden" name="subject" value="Service Request - {name}">
               <input type="hidden" name="redirect" value="https://tallahasseemobilemechanic.com/thank-you.html">
               <div class="form-group" style="margin-bottom:0.75rem;"><label for="s-name">Name</label><input type="text" id="s-name" name="name" placeholder="Your name" required></div>
-              <div class="form-group" style="margin-bottom:0.75rem;"><label for="s-phone">Phone</label><input type="tel" id="s-phone" name="phone" placeholder="(850) 555-0000" required></div>
+              <div class="form-group" style="margin-bottom:0.75rem;"><label for="s-phone">Phone</label><input type="tel" id="s-phone" name="phone" placeholder="(850) 555-XXXX" required></div>
               <div class="form-group" style="margin-bottom:0.75rem;"><label for="s-email">Email</label><input type="email" id="s-email" name="email" placeholder="your@email.com" required></div>
               <div class="form-group" style="margin-bottom:0.75rem;"><label for="s-address">Service Location</label><input type="text" id="s-address" name="address" placeholder="Your address or location" required></div>
               <div class="form-group" style="margin-bottom:1rem;"><label for="s-msg">Details</label><textarea id="s-msg" name="message" placeholder="Tell us about your vehicle and issue" style="min-height:80px;" required></textarea></div>

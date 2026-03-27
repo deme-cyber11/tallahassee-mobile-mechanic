@@ -23,16 +23,16 @@
     "search_volume": 530,
     "keyword_difficulty": 10,
     "cpc": 6.72,
-    "map_pack_competition": "Min 12 reviews in pos3 (Tally's Mobile Mechanic 14, Tallahassee RPM 12) — very winnable",
+    "map_pack_competition": "Min 12 reviews in pos3 (Tally's Mobile Mechanic 14, Tallahassee RPM 12) \u2014 very winnable",
     "stage3_verdict": "GREEN",
     "stage4_verdict": "BUILD"
   },
   "branding": {
     "business_name": "Tallahassee Mobile Mechanic",
-    "tagline": "We Come to You — Fast, Fair, and On Your Turf",
+    "tagline": "We Come to You \u2014 Fast, Fair, and On Your Turf",
     "hero_headline": "Tallahassee's Trusted Mobile Mechanic",
-    "hero_subheadline": "Car trouble? Don't tow it — we'll come fix it. Fast response across Tallahassee and surrounding areas.",
-    "urgency_banner": "⚡ Same-Day Service Available — Call Now",
+    "hero_subheadline": "Car trouble? Don't tow it \u2014 we'll come fix it. Fast response across Tallahassee and surrounding areas.",
+    "urgency_banner": "\u26a1 Same-Day Service Available \u2014 Call Now",
     "phone": "(XXX) 555-XXXX",
     "email": "contact@tallahasseemobilemechanic.com",
     "address": "1801 E Camelback Rd Ste 102, Phoenix AZ 85016",
@@ -68,7 +68,7 @@
     {
       "slug": "brake-repair",
       "name": "Mobile Brake Repair",
-      "description": "Brake pads, rotors, calipers — replaced at your location. No shop, no tow."
+      "description": "Brake pads, rotors, calipers \u2014 replaced at your location. No shop, no tow."
     },
     {
       "slug": "oil-change",
@@ -93,7 +93,7 @@
     {
       "slug": "pre-purchase-inspection",
       "name": "Pre-Purchase Inspection",
-      "description": "Buying a used car? We inspect it before you sign — wherever the car is located."
+      "description": "Buying a used car? We inspect it before you sign \u2014 wherever the car is located."
     },
     {
       "slug": "ac-recharge",
@@ -103,7 +103,7 @@
     {
       "slug": "tune-up",
       "name": "Mobile Tune-Up",
-      "description": "Spark plugs, filters, belts — full tune-up service without leaving your driveway."
+      "description": "Spark plugs, filters, belts \u2014 full tune-up service without leaving your driveway."
     }
   ],
   "service_areas": [
@@ -122,12 +122,17 @@
     "business_type": "AutoRepair",
     "area_served": "Tallahassee, FL and surrounding Leon County",
     "price_range": "$$",
-    "payment_accepted": ["Cash", "Credit Card", "Venmo", "Zelle"]
+    "payment_accepted": [
+      "Cash",
+      "Credit Card",
+      "Venmo",
+      "Zelle"
+    ]
   },
   "build": {
     "benchmark_site": "Core-Project",
-    "qa_passed": false,
-    "qa_errors": null,
+    "qa_passed": true,
+    "qa_errors": 0,
     "deploy_ready": false
   }
 }
