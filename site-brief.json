@@ -1,0 +1,133 @@
+{
+  "version": "2.0",
+  "meta": {
+    "created": "2026-03-27",
+    "niche": "Mobile Mechanic",
+    "city": "Tallahassee",
+    "state": "FL",
+    "state_full": "Florida",
+    "population": 196169,
+    "domain_target": "tallahasseemobilemechanic.com",
+    "rental_tier": "$150/mo",
+    "rental_rationale": "Avg mobile mechanic job $300-800 (diagnosis + repair). Basic tier."
+  },
+  "seo": {
+    "primary_keyword": "mobile mechanic tallahassee",
+    "secondary_keywords": [
+      "mobile auto repair tallahassee",
+      "mobile mechanic tallahassee fl",
+      "mobile car repair tallahassee",
+      "mechanic that comes to you tallahassee",
+      "on site auto repair tallahassee"
+    ],
+    "search_volume": 530,
+    "keyword_difficulty": 10,
+    "cpc": 6.72,
+    "map_pack_competition": "Min 12 reviews in pos3 (Tally's Mobile Mechanic 14, Tallahassee RPM 12) — very winnable",
+    "stage3_verdict": "GREEN",
+    "stage4_verdict": "BUILD"
+  },
+  "branding": {
+    "business_name": "Tallahassee Mobile Mechanic",
+    "tagline": "We Come to You — Fast, Fair, and On Your Turf",
+    "hero_headline": "Tallahassee's Trusted Mobile Mechanic",
+    "hero_subheadline": "Car trouble? Don't tow it — we'll come fix it. Fast response across Tallahassee and surrounding areas.",
+    "urgency_banner": "⚡ Same-Day Service Available — Call Now",
+    "phone": "(XXX) 555-XXXX",
+    "email": "contact@tallahasseemobilemechanic.com",
+    "address": "1801 E Camelback Rd Ste 102, Phoenix AZ 85016",
+    "address_display": false
+  },
+  "palette": {
+    "palette_name": "warm-slate-orange",
+    "primary": "#1c1a17",
+    "accent": "#f97316",
+    "background": "#fffbf7",
+    "font_display": "Bricolage Grotesque",
+    "font_body": "Nunito Sans",
+    "hero_variant": "split-left",
+    "palette_registry_checked": true,
+    "unique_confirmed": true
+  },
+  "hours": {
+    "monday": "7:00 AM - 7:00 PM",
+    "tuesday": "7:00 AM - 7:00 PM",
+    "wednesday": "7:00 AM - 7:00 PM",
+    "thursday": "7:00 AM - 7:00 PM",
+    "friday": "7:00 AM - 7:00 PM",
+    "saturday": "8:00 AM - 5:00 PM",
+    "sunday": "Emergency calls only"
+  },
+  "pricing": {
+    "range_low": 79,
+    "range_high": 850,
+    "diagnostic_fee": 79,
+    "note": "Diagnostic fee waived when repair is booked. Most jobs $150-450."
+  },
+  "services": [
+    {
+      "slug": "brake-repair",
+      "name": "Mobile Brake Repair",
+      "description": "Brake pads, rotors, calipers — replaced at your location. No shop, no tow."
+    },
+    {
+      "slug": "oil-change",
+      "name": "Mobile Oil Change",
+      "description": "Conventional, synthetic blend, or full synthetic oil change at your home or office."
+    },
+    {
+      "slug": "battery-replacement",
+      "name": "Battery Replacement",
+      "description": "Dead battery? We'll test it, replace it, and get you started in under an hour."
+    },
+    {
+      "slug": "diagnostic-service",
+      "name": "Check Engine Light Diagnostics",
+      "description": "Professional OBD-II scan and diagnosis. Know exactly what's wrong before you pay."
+    },
+    {
+      "slug": "alternator-repair",
+      "name": "Alternator & Starter Repair",
+      "description": "Charging system failure? We diagnose and replace alternators and starters on-site."
+    },
+    {
+      "slug": "pre-purchase-inspection",
+      "name": "Pre-Purchase Inspection",
+      "description": "Buying a used car? We inspect it before you sign — wherever the car is located."
+    },
+    {
+      "slug": "ac-recharge",
+      "name": "AC Recharge & Repair",
+      "description": "Hot Florida summers demand working AC. We recharge and repair mobile A/C systems."
+    },
+    {
+      "slug": "tune-up",
+      "name": "Mobile Tune-Up",
+      "description": "Spark plugs, filters, belts — full tune-up service without leaving your driveway."
+    }
+  ],
+  "service_areas": [
+    "Tallahassee",
+    "Midway",
+    "Crawfordville",
+    "Quincy",
+    "Havana",
+    "Monticello",
+    "Woodville",
+    "Wakulla",
+    "Gadsden County",
+    "Leon County"
+  ],
+  "schema": {
+    "business_type": "AutoRepair",
+    "area_served": "Tallahassee, FL and surrounding Leon County",
+    "price_range": "$$",
+    "payment_accepted": ["Cash", "Credit Card", "Venmo", "Zelle"]
+  },
+  "build": {
+    "benchmark_site": "Core-Project",
+    "qa_passed": false,
+    "qa_errors": null,
+    "deploy_ready": false
+  }
+}
