@@ -134,5 +134,7 @@
     "qa_passed": true,
     "qa_errors": 0,
     "deploy_ready": false
-  }
+  },
+  "qa_passed": true,
+  "qa_errors": 0
 }
