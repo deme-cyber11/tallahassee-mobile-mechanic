@@ -1371,3 +1371,22 @@ ul, ol { margin: 0 0 1rem; padding-left: 1.5rem; }
 /* Add padding to body for fixed nav + mobile CTA bar */
 body { padding-bottom: 70px; }
 @media (min-width: 1024px) { body { padding-bottom: 0; } }
+
+/* ── Wordmark logo (logo-gen.py) ──────────────────────────── */
+.nav-logo-icon {
+  font-family: var(--font-display, 'sans-serif');
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #fff;
+}
+.nav-logo-icon svg { display: none; } /* hide any legacy Phosphor icons */
+.nav-logo-text .logo-brand {
+  color: var(--color-accent, #e94560);
+  font-weight: 900;
+}
+.footer__brand .nav-logo-text .logo-brand {
+  color: var(--color-accent, #e94560);
+}
+/* END LOGO-GEN */
