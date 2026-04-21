@@ -18,6 +18,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.v1.css">
+  <link rel="stylesheet" href="css/style.v2.5.css">
+  <link rel="stylesheet" href="css/site-theme.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"ContactPage","name":"Contact Tallahassee Mobile Mechanic","url":"https://tallymobilemechanic.com/contact.html","description":"Schedule mobile auto repair service in Tallahassee FL."}
   </script>
@@ -62,7 +64,7 @@
             <p style="color:var(--color-text-muted);margin-bottom:2rem;line-height:1.8;">Fill out the form and we'll call you back within the hour to confirm your appointment. Same-day service is available Monday–Saturday.</p>
 
             <form action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST" novalidate>
-        <input type="hidden" name="_honey" style="display:none">
+        <input type="text" name="_honey" style="display:none !important;position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
               <input type="hidden" name="_subject" value="New Quote Request - Tallahassee Mobile Mechanic">
               <input type="hidden" name="redirect" value="https://tallymobilemechanic.com/thank-you.html">
 
