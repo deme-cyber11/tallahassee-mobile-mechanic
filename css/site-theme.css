@@ -109,6 +109,14 @@ main table,
 .content-section li,
 .calc-content li { margin-bottom: 0.4rem; }
 
+/* Trust bar: 5 items in 2-col grid — center the lone last item */
+@media (max-width: 639px) {
+  .trust-item:last-child {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+}
+
 /* Testimonial legibility */
 .testimonial-card::before,
 .testimonial-section .testimonial-quote::before { content: none !important; }
