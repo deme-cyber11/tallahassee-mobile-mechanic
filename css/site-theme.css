@@ -3,6 +3,9 @@
   --color-accent:      #d97706;
   --color-accent-dark: #b45309;
   --color-accent-glow: rgba(217, 119, 6, 0.3);
+  /* cta-banner gradient vars — v1.css uses --primary/--primary-dark, not --color-prefixed */
+  --primary:           #1a1a2e;
+  --primary-dark:      #0f172a;
 }
 
 /* ── Hamburger button ── */
