@@ -14,9 +14,9 @@
   <meta name="twitter:description" content="Mobile mechanic serving Monticello, FL. Mobile mechanic service in Monticello FL — professional auto repair serving Jefferson County with no tow truck needed. Call (850) 726-3411 for same-day service.">
   <meta name="robots" content="index, follow">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.v1.css">
-  <link rel="stylesheet" href="/css/style.v2.5.css">
-  <link rel="stylesheet" href="/css/site-theme.css">
+  <link rel="stylesheet" href="/css/styles.v1.css?v=20261001r2">
+  <link rel="stylesheet" href="/css/style.v2.5.css?v=20261001r2">
+  <link rel="stylesheet" href="/css/site-theme.css?v=20261001r2">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"Tallahassee Mobile Mechanic - Monticello","description":"Mobile auto repair in Monticello, FL","areaServed":{"@type":"City","name":"Monticello","addressRegion":"FL"},"url":"https://tallymobilemechanic.com/locations/monticello-fl.html","telephone":"(850) 726-3411"}</script>
     <meta name="theme-color" content="#1a1a2e">
 <!-- favicon + link preview (tools/link-preview-kit.py) -->
@@ -31,28 +31,31 @@
 <meta property="og:image:alt" content="Tallahassee Mobile Mechanic">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://tallymobilemechanic.com/images/og-card.jpg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/css/modern.css?v=20261001r2">
 </head>
-<body>
+<body class="tm tm-location">
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <header id="site-header">
     <nav class="nav-container" aria-label="Main navigation">
       <a href="/" class="nav-logo"><div class="nav-logo-icon" aria-hidden="true">TM</div><span class="nav-logo-text"><span class="logo-brand">Tallahassee</span> Mobile Mechanic</span></a>
       <ul class="nav-links" id="nav-links" role="list">
         <li class="nav-dropdown"><a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="nav-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a><ul class="nav-dropdown-menu" role="menu"><li role="none"><a href="/services/brake-repair.html" role="menuitem">Brake Repair</a></li><li role="none"><a href="/services/oil-change.html" role="menuitem">Oil Change</a></li><li role="none"><a href="/services/battery-replacement.html" role="menuitem">Battery Replacement</a></li><li role="none"><a href="/services/diagnostic-service.html" role="menuitem">Diagnostics</a></li><li role="none"><a href="/services/alternator-repair.html" role="menuitem">Alternator Repair</a></li><li role="none"><a href="/services/pre-purchase-inspection.html" role="menuitem">Pre-Purchase Inspection</a></li><li role="none"><a href="/services/ac-recharge.html" role="menuitem">AC Recharge</a></li><li role="none"><a href="/services/tune-up.html" role="menuitem">Tune-Up</a></li></ul></li>
+        <li><a href="/locations/">Service Areas</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/pricing.html">Pricing</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact.html">Contact</a></li>
       </ul>
-      <div class="nav-actions"><a href="tel:8507263411" class="nav-phone">(850) 726-3411</a><a href="/contact.html" class="nav-cta-btn">Get a Quote</a></div>
+      <div class="nav-actions"><a href="tel:8507263411" class="nav-phone"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.756l-.97.322a11.04 11.04 0 0 0 6.302 6.302l.322-.97a1.5 1.5 0 0 1 1.756-1.02l2.31.513A1.5 1.5 0 0 1 18 12.352V13.5a1.5 1.5 0 0 1-1.5 1.5H15c-7.18 0-13-5.82-13-13V3.5Z" clip-rule="evenodd"/></svg>(850) 726-3411</a><a href="/contact.html" class="nav-cta-btn">Get a Quote</a></div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
     </nav>
   </header>
   <main id="main-content">
 
-    <div class="inner-hero">
+    <div class="inner-hero" style="--hero-img:url(/images/site/area-van.jpg)">
       <div class="container">
-        <nav aria-label="breadcrumb" style="margin-bottom:1rem;"><ol style="display:flex;gap:0.4rem;list-style:none;padding:0;margin:0;font-size:0.8rem;color:rgba(255,255,255,0.6);"><li><a href="/" style="color:inherit;">Home</a></li><li aria-hidden="true">›</li><li><a href="/locations/" style="color:inherit;">Locations</a></li><li aria-hidden="true">›</li><li aria-current="page" style="color:var(--color-accent);">Monticello</li></ol></nav>
+        <nav aria-label="breadcrumb" class="tm-crumbs"><ol><li><a href="/">Home</a></li><li aria-hidden="true">›</li><li><a href="/locations/">Locations</a></li><li aria-hidden="true">›</li><li aria-current="page">Monticello</li></ol></nav>
         <span class="inner-hero__eyebrow">Service Area</span>
         <h1>Mobile Mechanic in Monticello, FL</h1>
         <p>Mobile auto repair serving Monticello and Jefferson County FL. Certified mechanics come to you — same-day service available.</p>
@@ -63,10 +66,9 @@
       </div>
     </div>
     <section class="section">
-      <div class="container" style="max-width:1100px;margin:0 auto;">
-        <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=1200&q=80" alt="Mobile mechanic service in Monticello Florida" width="1200" height="500" loading="lazy" style="border-radius:var(--radius-lg);width:100%;object-fit:cover;max-height:360px;margin-bottom:2rem;">
-        <div style="display:grid;grid-template-columns:1fr;gap:2.5rem;">
-          <div class="prose"><h2>Mobile Mechanic Service in Monticello, FL</h2>
+      <div class="container">
+        <div class="tm-detail">
+          <div class="prose"><img src="/images/site/u-1615906655593-ad0386982a0f.jpg" alt="Mobile mechanic service in Monticello Florida" width="1200" height="500" loading="lazy" class="tm-feature-img"><h2>Mobile Mechanic Service in Monticello, FL</h2>
 <p>Monticello is the county seat of Jefferson County, FL, located approximately 25 miles east of Tallahassee along US-90 and I-10. Known for its beautifully preserved Victorian downtown architecture, the Monticello Opera House, and its position as a gateway to north Florida's agricultural heartland, Monticello serves a tight-knit community with deep local roots. Tallahassee Mobile Mechanic extends professional mobile auto repair service to Monticello, providing Jefferson County residents access to certified mechanics without the need for a shop visit or long tow.</p>
 
 <h2>Auto Repair Options in Monticello Are Limited</h2>
@@ -81,20 +83,20 @@
 <h2>Response Time and Scheduling</h2>
 <p>Monticello is approximately 25 miles east of Tallahassee — about 30 minutes by highway. Our typical response time is 1.5–2.5 hours after scheduling. Same-day service is available Monday through Saturday. A travel surcharge may apply for Monticello depending on current appointment load — please call (850) 726-3411 to get exact details for your scheduled appointment.</p></div>
           <div>
-            <img src="https://images.unsplash.com/photo-1504222490345-c075b6008014?w=800&q=80" alt="Auto repair near Monticello FL" width="800" height="500" loading="lazy" style="border-radius:var(--radius-lg);width:100%;object-fit:cover;max-height:260px;margin-bottom:1.5rem;">
-            <div style="background:var(--color-surface);border-radius:var(--radius-lg);padding:1.75rem;border:1px solid var(--color-border);">
-              <h2 style="font-size:1.2rem;margin-bottom:1rem;">Services in Monticello</h2>
-              <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.5rem;">
-                <li><a href="/services/brake-repair.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Mobile Brake Repair</a></li>
-                <li><a href="/services/oil-change.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Oil Change</a></li>
-                <li><a href="/services/battery-replacement.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Battery Replacement</a></li>
-                <li><a href="/services/diagnostic-service.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Check Engine Diagnostics</a></li>
-                <li><a href="/services/alternator-repair.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Alternator &amp; Starter Repair</a></li>
-                <li><a href="/services/ac-recharge.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ AC Recharge &amp; Repair</a></li>
-                <li><a href="/services/pre-purchase-inspection.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Pre-Purchase Inspection</a></li>
-                <li><a href="/services/tune-up.html" style="color:var(--color-text-muted);font-size:0.9rem;text-decoration:none;">✓ Mobile Tune-Up</a></li>
+            <img src="/images/site/u-1504222490345-c075b6008014.jpg" alt="Auto repair near Monticello FL" width="800" height="500" loading="lazy" class="tm-aside-img">
+            <div class="tm-panel">
+              <h2>Services in Monticello</h2>
+              <ul class="tm-links">
+                <li><a href="/services/brake-repair.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Mobile Brake Repair</a></li>
+                <li><a href="/services/oil-change.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Oil Change</a></li>
+                <li><a href="/services/battery-replacement.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Battery Replacement</a></li>
+                <li><a href="/services/diagnostic-service.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Check Engine Diagnostics</a></li>
+                <li><a href="/services/alternator-repair.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Alternator &amp; Starter Repair</a></li>
+                <li><a href="/services/ac-recharge.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> AC Recharge &amp; Repair</a></li>
+                <li><a href="/services/pre-purchase-inspection.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Pre-Purchase Inspection</a></li>
+                <li><a href="/services/tune-up.html"><svg class="tm-i" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Mobile Tune-Up</a></li>
               </ul>
-              <a href="/contact.html" class="btn btn--primary btn--block" style="margin-top:1.5rem;">Book Service in Monticello</a>
+              <a href="/contact.html" class="btn btn--primary btn--block">Book Service in Monticello</a>
             </div>
           </div>
         </div>
@@ -102,7 +104,7 @@
     </section>
     <section class="section section--surface">
       <div class="container"><div class="section__header"><h2 class="section__title">FAQ — Mobile Mechanic in Monticello</h2></div>
-        <div class="faq-list" role="list"><div class="faq-item" role="listitem"><button class="faq-item__trigger" aria-expanded="false" aria-controls="lq0">Do you serve Monticello and Jefferson County? <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-item__body" id="lq0"><p>Yes. Monticello is approximately 25 miles east of Tallahassee and within our extended service area. Call (850) 726-3411 to confirm same-day availability for your location.</p></div></div><div class="faq-item" role="listitem"><button class="faq-item__trigger" aria-expanded="false" aria-controls="lq1">What auto services can you do in Monticello? <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-item__body" id="lq1"><p>All standard mobile mechanic services are available in Monticello — brake repair, oil changes, battery replacement, diagnostics, alternator and starter repair, AC recharge, pre-purchase inspection, and tune-up.</p></div></div><div class="faq-item" role="listitem"><button class="faq-item__trigger" aria-expanded="false" aria-controls="lq2">Is there a travel charge for Monticello? <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-item__body" id="lq2"><p>A small travel surcharge may apply for Monticello depending on scheduling. Call us for exact pricing — our standard diagnostic and repair rates apply.</p></div></div><div class="faq-item" role="listitem"><button class="faq-item__trigger" aria-expanded="false" aria-controls="lq3">Can you inspect a car I am buying in the Monticello area? <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-item__body" id="lq3"><p>Yes. We perform pre-purchase inspections throughout our service area including Monticello. We go to wherever the vehicle is located and provide a written report the same day.</p></div></div></div>
+        <div class="faq-list"><details class="tm-faq"><summary>Do you serve Monticello and Jefferson County?</summary><div class="tm-faq-a" id="lq0"><p>Yes. Monticello is approximately 25 miles east of Tallahassee and within our extended service area. Call (850) 726-3411 to confirm same-day availability for your location.</p></div></details><details class="tm-faq"><summary>What auto services can you do in Monticello?</summary><div class="tm-faq-a" id="lq1"><p>All standard mobile mechanic services are available in Monticello — brake repair, oil changes, battery replacement, diagnostics, alternator and starter repair, AC recharge, pre-purchase inspection, and tune-up.</p></div></details><details class="tm-faq"><summary>Is there a travel charge for Monticello?</summary><div class="tm-faq-a" id="lq2"><p>A small travel surcharge may apply for Monticello depending on scheduling. Call us for exact pricing — our standard diagnostic and repair rates apply.</p></div></details><details class="tm-faq"><summary>Can you inspect a car I am buying in the Monticello area?</summary><div class="tm-faq-a" id="lq3"><p>Yes. We perform pre-purchase inspections throughout our service area including Monticello. We go to wherever the vehicle is located and provide a written report the same day.</p></div></details></div>
       </div>
     </section>
     <section class="cta-banner"><div class="container"><h2 class="cta-banner__title">Need a Mobile Mechanic in Monticello?</h2><p class="cta-banner__sub">We come to you — home, office, or roadside. Same-day service available Mon–Sat.</p><div class="cta-banner__actions"><a href="tel:8507263411" class="btn btn--white btn--lg">Call (850) 726-3411</a><a href="/contact.html" class="btn btn--outline-white btn--lg">Request Service</a></div></div></section>
@@ -113,7 +115,7 @@
         <div class="footer__brand"><a href="/" class="nav-logo"><div class="nav-logo-icon" aria-hidden="true">TM</div><span class="nav-logo-text"><span class="logo-brand">Tallahassee</span> Mobile Mechanic</span></a><p class="footer__tagline">We Come to You. Fast, Fair, On Your Turf.</p></div>
         <div><p class="footer__heading">Services</p><ul class="footer__links"><li><a href="/services/brake-repair.html">Brake Repair</a></li><li><a href="/services/oil-change.html">Oil Change</a></li><li><a href="/services/battery-replacement.html">Battery Replacement</a></li><li><a href="/services/diagnostic-service.html">Diagnostics</a></li><li><a href="/services/alternator-repair.html">Alternator Repair</a></li><li><a href="/services/ac-recharge.html">AC Recharge</a></li></ul></div>
         <div><p class="footer__heading">Company</p><ul class="footer__links"><li><a href="/about.html">About Us</a></li><li><a href="/pricing.html">Pricing</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
-        <div><p class="footer__heading">Hours</p><div class="footer__contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon-Fri: 7am-7pm<br>Sat: 8am-5pm<br>Sun: Emergency</span></div><a href="tel:8507263411" style="display:inline-flex;background:var(--color-accent);color:#fff;padding:0.6rem 1rem;border-radius:6px;font-weight:700;font-size:0.875rem;text-decoration:none;margin-top:1rem;">Call (850) 726-3411</a></div>
+        <div><p class="footer__heading">Hours</p><div class="footer__contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon-Fri: 7am-7pm<br>Sat: 8am-5pm<br>Sun: Emergency</span></div><a href="tel:8507263411" class="tm-footer-call">Call (850) 726-3411</a></div>
       </div>
       <div class="footer__bottom"><span>&copy; 2026 Tallahassee Mobile Mechanic. All rights reserved.</span><div class="footer__bottom-links"><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms-of-service.html">Terms of Service</a><a href="/sitemap.html">Sitemap</a></div></div>
     </div>
