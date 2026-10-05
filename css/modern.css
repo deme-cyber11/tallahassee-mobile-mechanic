@@ -473,3 +473,9 @@ body.tm .tm-crumbs li[aria-current] { flex-shrink: 1; min-width: 0; overflow: hi
 }
 /* 404 + thank-you keep their own centred inline layout; drop the fixed-header offset and the full-screen min-height */
 body.tm-util main { min-height: 0 !important; margin-top: 0 !important; padding: clamp(72px, 9vw, 112px) 18px !important; background: var(--tm-soft); }
+
+/* Hero photo as WebP where the browser supports image-set type(); others keep the JPEG
+   in --hero-img (speed: LCP). */
+@supports (background-image: image-set(url("a.webp") type("image/webp"))) {
+  [style*="--hero-img-webp"] { --hero-img: var(--hero-img-webp) !important; }
+}
