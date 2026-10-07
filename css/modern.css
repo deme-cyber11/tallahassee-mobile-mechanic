@@ -479,3 +479,18 @@ body.tm-util main { min-height: 0 !important; margin-top: 0 !important; padding:
 @supports (background-image: image-set(url("a.webp") type("image/webp"))) {
   [style*="--hero-img-webp"] { --hero-img: var(--hero-img-webp) !important; }
 }
+
+/* 2026-10-07 design check */
+/* Phone menu: the open panel covered the bottom quote bar and had no quote or call link.
+   Show the header's call and quote buttons pinned to the bottom of the open panel. */
+@media (max-width: 1023px) {
+  body.tm .nav-container:has(.nav-links.is-open) .nav-actions { display: flex; position: fixed; left: 0; right: 0; bottom: 0; gap: 10px; padding: 12px 18px calc(12px + env(safe-area-inset-bottom)); background: var(--tm-navy); border-top: 1px solid rgba(255,255,255,.1); z-index: 1002; }
+  body.tm .nav-container:has(.nav-links.is-open) .nav-actions > a { flex: 1 1 0; justify-content: center; min-height: 48px; display: inline-flex; align-items: center; gap: 8px; }
+  body.tm .nav-container:has(.nav-links.is-open) .nav-phone { display: inline-flex; color: #fff; border: 1.5px solid rgba(255,255,255,.35); border-radius: 12px; font-weight: 700; }
+  body.tm .nav-links.is-open { padding-bottom: 100px; }
+}
+/* Featured pricing card: the old badge transform pushed its top bar out of the card */
+body.tm .pricing-card--featured::before { transform: none; padding: 0; }
+/* Six-card grids (service areas) stayed three across on phones */
+@media (max-width: 1023px) { body.tm .service-cards__grid:has(> :last-child:nth-child(6)) { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px) { body.tm .service-cards__grid:has(> :last-child:nth-child(6)) { grid-template-columns: 1fr; } }
